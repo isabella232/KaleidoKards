@@ -20,28 +20,18 @@ class LaunchDesign extends Component {
           
         return (
             <div className="shapes"> 
-                <div> 
-                   <img src={StarShape} className="star-shape-image"/>
-                </div>
-                <div>
-                    <img src={CircleShape} className="circle-white"/>
-                </div> 
-                <div> 
+
+                <div className="shape-group">
+                    <img src={StarShape} className="star-shape-image"/>
+                    {/* <img src={CircleShape} className="circle-white"/> */}
                     <img src={SquareGreen} className="square-green-two"/>
-                </div>
-                <div>
-                    <img src={CircleShape} className="circle-shape-right"/>
-                </div> 
-                <div>
+                    {/* <img src={CircleShape} className="circle-shape-right"/> */}
                     <img src={DiamondShape} className="diamond-right-two"/>
-                </div> 
-                <div>
                     <img src={StarBlue} className="star-blue-two"/>
-                </div>
-                <div>
                     <img src={DiamondShape} className="diamond-right-three"/>
-                </div> 
-                <div> 
+                  
+                </div>
+                {/* <div> 
                     <img src={SquareGreen} className="square-shape-two"/>
                 </div>
                 <div>
@@ -90,7 +80,7 @@ class LaunchDesign extends Component {
                 </div>
                     <img src={CircleShape} className="circle-shape-four"/>
                 </div> 
-                <div className="square-three"> 
+                <div> 
                     <img src={SquareShape} className="square-shape-three"/>
                 </div>
                 <div> 
@@ -118,7 +108,7 @@ class LaunchDesign extends Component {
 
                 <div className="square-five"> 
                     <img src={SquareShape} className="square-shape-five"/>
-                </div>
+                </div> */}
 
 
 

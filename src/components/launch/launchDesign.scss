@@ -1,10 +1,25 @@
 @import './../styles/launchAnimation.scss';
 
+
+.shapes {
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.shape-group {
+    height: 100%;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
 .star-shape-image {
     width: 1rem;
-    position: absolute;
-    top: 2rem;
-    left: 21rem;
     animation: glitter 4.5s linear 0s infinite normal;
    
 }
@@ -16,29 +31,18 @@
 
 .star-three {
     animation: glitter 5s linear 0s infinite normal;
-    margin-right: 2rem;
+
 }
 
 .star-right {
     animation: glitter 6s linear 0s infinite normal;
-      position: absolute;
-    top: 33rem;
-    right: 1rem;
-    left: 53rem;
 }
 
 .square-shape-one {
-    position: absolute;
-    top: 28rem;
-    left: 22rem;
     opacity: .7;
 }
 
 .square-shape-two {
-    position: absolute;
-    top: 7rem;
-    right: 1rem;
-    left: 18rem;
     width: 1rem;
     height: 1rem;
 }
@@ -47,84 +51,54 @@
     width: 1rem;
     height: 1rem;
     animation: glitter 7s linear 0s infinite normal;
-    position: absolute;
-    top: 38rem;
-    left: 58rem;
-    right: 1rem;
     
 }
 
 .square-shape-three {
-    margin-right: -6rem;
+    right: 1rem;
     width: 6rem;
     height: 6rem;
-    opacity:.3;
+    opacity: .3;
 }
 
 .diamond-shape-one {
-    position: absolute;
-    top: 25rem;
-    left: 12rem;
     animation: glitter 10s linear 0s infinite normal;
 }
 
 .circle-shape-three {
-    position: absolute;
-    top: 5rem;
-    left: 14rem;
     width: 1rem;
     height: 1rem;
 }
 
 .circle-shape-four {
-    margin-right: 14rem;
     width: 3rem;
     height: 3rem;
     opacity: .4;
+
 }
 
 .star-blue {
     width: 2rem;
     height: 2rem;
-    position:absolute;
-    top: 30rem;
-    left:57rem;
-    right:1rem;
 }
 
 .star-blue-two {
     width: 1.5rem;
     height: 1.5rem;
-    position: absolute;
-    top: 18rem;
-    left: 12rem;
-    right: 1rem;
 }
 
 .diamond-right-two{
     width: 4rem;
     height: 4rem;
-    position:absolute;
-    top: 5rem;
-    left: 70rem;
-    right: 1rem;
 }
 
 .diamond-right-three{
     width: 6rem;
     height: 6rem;
-    position: absolute;
-    top: 25rem;
-    left: 74rem;
-    right: 1rem;
     animation: glitter 10s linear 0s infinite normal;
 }
 
 .circle-shape-right {
-    position: absolute;
-    top: 2rem;
-    left: 77rem;
-    right: 1rem;
     width: 3rem;
     height: 3rem;
     opacity: .5;
@@ -135,16 +109,9 @@
 .square-pink {
     width: 3rem;
     height: 3rem;
-    position: absolute;
-    top: 20rem;
-    left: 17rem;
 }
 
 .circle-opaque {
-    position: absolute;
-    top: 4rem;
-    left: 47rem;
-    right: 1rem;
     width: 2rem;
     height: 2rem;
     opacity: .4;
@@ -153,24 +120,9 @@
 .circle-green {
     width: 4rem;
     height: 4rem;
-    position: absolute;
-    top: 7rem;
-    left: 59rem;
-    right: 1rem;
-}
-
-.circle-green-small {
-    position: absolute;
-    top: 16rem;
-    left: 70rem;
-    right:1rem;
 }
 
 .diamond-right {
-    position: absolute;
-    top: 20rem;
-    left: 61rem;
-    right:2rem;
     animation: glitter 10s linear 0s infinite normal;
 }
 
@@ -181,35 +133,19 @@
 }
 
 .circle-shape-two {
-    position: absolute;
-    top: 36rem;
-    left: 17rem;
     width: 3rem;
     height: 3rem;
     opacity: .5;
     animation:  glitter 10s linear 0s infinite normal;
 }
 
-.circle-shape-one {
-    position: absolute;
-    top: 16rem;
-    left: 2rem;
-}
-
 .triangle-shape-one {
-    position: absolute;
-    top: 13rem;
-    left: 17rem;
-    /* margin-left: -18rem; */
     width: 1rem;
     height: 1rem;
     animation: glitter 8s linear 0s infinite normal;
 }
 
 .triangle-shape-two {
-    position: absolute;
-    top: 21rem;
-    left: 6rem;
     width: 3rem;
     height: 3rem;
     opacity: .7;
@@ -220,52 +156,33 @@
     opacity: .4;
     width: 2rem;
     height: 2rem;
-    position: absolute;
-    top: 35rem;
-    left: 7rem;
-    right: 1rem;
 }
 
 .square-shape-four {
     width: 3rem;
     height: 3rem;
-    position: absolute;
-    top: 28rem;
-    left: 3rem;
 
 }
 
 .square-orange-color {
     width: 2rem;
     height: 2rem;
-    position: absolute;
-    top: 12rem;
-    right: 20rem;
 }
 
 .triangle-pink-shape {
     width: 3rem;
     height: 3rem;
-    position: absolute;
-    right: 7rem;
-    top: 14rem;
 }
 
 .circle-white {
     width: 3rem;
     height: 3rem;
-    position: absolute;
-    top: 2rem;
     opacity: .7;
-    right: 20rem;
 }
 
 .square-green-two {
     width: 4rem;
     height: 4rem;
-    position: absolute;
-    top: 29rem;
-    right: 16rem;
 }
 
 
