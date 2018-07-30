@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Launch.scss';
-import LaunchDesign from './components/launch/LaunchDesign';
+import LaunchShapes from './components/launch/LaunchShapes';
+// import LaunchDesign from './components/launch/LaunchDesign';
 import Region from './components/regions/Region.js';
 import IntroVideo from "./components/video/IntroVideo";
 import LaunchStatus from "./components/launchStatus/launchStatus";
@@ -134,7 +135,7 @@ class Launch extends Component {
             <div className='launch-wrapper'>
                 <LaunchStatus status={this.state.status}/>
                 <IntroVideo visible={this.state.showIntroVideo} setVisibility={this.showVideo.bind(this)} afterVideo={this.goToDashboard.bind(this)}/>
-                <LaunchDesign/>
+                <LaunchShapes/>
                 <div className="launch-container">
                     <label className="launch-button-form">
                         <input className="api-key" onChange={this.updateApiKey.bind(this)} type="text" required="" placeholder="Paste Api Key Here"/>

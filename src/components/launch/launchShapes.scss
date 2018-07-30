@@ -1,0 +1,16 @@
+@import './launchDesign.scss';
+
+
+.shape-container {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+#kkl-greenDiamondTwo{
+    transform-origin: 50% 50%;
+    animation: glitter 4.5s linear 0s infinite normal;
+}
