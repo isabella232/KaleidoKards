@@ -2,11 +2,12 @@
 
 
 .shapes {
-    position:fixed;
+    position: fixed;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
+    display: flex;
 }
 
 .shape-group {
@@ -16,6 +17,80 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+}
+
+.shape-group-two{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.shape-group-three{
+    margin-top: 5rem;
+    margin-left: -9rem;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shape-group-four{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space evenly; 
+}
+
+.shape-group-five {
+    margin-left: 34rem;
+    margin-top: -12rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.shape-group-six {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.shape-group-seven {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.shape-group-eight {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.shape-group-nine {
+    margin-left: -1rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .star-shape-image {
@@ -32,10 +107,6 @@
 .star-three {
     animation: glitter 5s linear 0s infinite normal;
 
-}
-
-.star-right {
-    animation: glitter 6s linear 0s infinite normal;
 }
 
 .square-shape-one {

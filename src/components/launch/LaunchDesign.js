@@ -23,98 +23,67 @@ class LaunchDesign extends Component {
 
                 <div className="shape-group">
                     <img src={StarShape} className="star-shape-image"/>
-                    {/* <img src={CircleShape} className="circle-white"/> */}
                     <img src={SquareGreen} className="square-green-two"/>
-                    {/* <img src={CircleShape} className="circle-shape-right"/> */}
                     <img src={DiamondShape} className="diamond-right-two"/>
                     <img src={StarBlue} className="star-blue-two"/>
                     <img src={DiamondShape} className="diamond-right-three"/>
                   
                 </div>
-                {/* <div> 
+
+                <div className="shape-group-two">
+                  <img src={CircleShape} className="circle-white"/>
+                  <img src={CircleShape} className="circle-shape-right"/>
+                  <img src={StarShape} className="star-shape-image"/>
+                </div>
+
+                <div className="shape-group-three">
                     <img src={SquareGreen} className="square-shape-two"/>
-                </div>
-                <div>
                     <img src={DiamondPink} className="star-shape-design square-pink"/>
-                </div>
-                <div> 
-                   <img src={StarShape} className="star-small-right"/>
-                </div>
-                <div>
+                    <img src={StarShape} className="star-small-right"/>
                     <img src={CircleShape} className="circle-opaque"/>
-                </div> 
-                <div>
+                </div>
+
+                <div className="shape-group-four">
                     <img src={StarBlue} className="star-blue"/>
                 </div>
-                
-                <div>
+
+                <div className="shape-group-five">
                     <img src={CircleGreen} className="circle-green"/>
-                </div> 
-                <div> 
                     <img src={TrianglePink} className="triangle-pink-shape"/>
-                </div> 
-                <div>
                     <img src={CircleShape} className="circle-shape-three"/>
-                </div>  
-                <div> 
-                   <img src={StarShape} className="star-shape-two"/>
                 </div>
-                <div> 
-                   <img src={StarShape}  className="star-three"/>
-                </div>
-                <div> 
+
+                <div className="shape-group-six">
+                    <img src={StarShape} className="star-shape-two"/>
+                    <img src={StarShape}  className="star-three"/>
                     <img src={SquareOrange} className="square-orange-color"/>
-                </div>
-                <div>
                     <img src={CircleGreen} className="circle-green small circle-green-small"/>
-                </div> 
-                <div>
+                </div>
+
+                <div className="shape-group-seven">
                     <img src={DiamondShape} className="diamond-right"/>
-                </div> 
-                <div> 
                     <img src={SquareShape} className="square-shape-one"/>
+                    <img src={StarShape}  className="star-right"/>
                 </div>
-                <div>
-                <div> 
-                   <img src={StarShape}  className="star-right"/>
-                </div>
+
+                <div className="shape-group-eight">
                     <img src={CircleShape} className="circle-shape-four"/>
-                </div> 
-                <div> 
                     <img src={SquareShape} className="square-shape-three"/>
-                </div>
-                <div> 
                     <img src={TrianglePink} className="triangle-shape-two"/>
-                </div> 
-                <div className="square-four"> 
                     <img src={SquareOrange} className="square-shape-four"/>
-                </div>
-
-                <div>
                     <img src={CircleShape} className="circle-shape-one"/>
-                </div> 
+                </div>
+                    
 
-                <div>
+                <div className="shape-group-nine">
                     <img src={DiamondShape} className="diamond-shape-one"/>
-                </div> 
-
-                 <div>
                     <img src={CircleShape} className="circle-shape-two"/>
-                </div>  
-                <div> 
                     <img src={TriangleBlue} className="triangle-shape-one"/>
-                </div> 
-
-
-                <div className="square-five"> 
                     <img src={SquareShape} className="square-shape-five"/>
-                </div> */}
-
-
-
+                </div>
                 
-
-
+             
+    
             </div>
         )
     }
